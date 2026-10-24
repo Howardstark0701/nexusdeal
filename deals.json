@@ -1,0 +1,405 @@
+{
+  "DEAL-5205682C": {
+    "deal_id": "DEAL-5205682C",
+    "type": "combo",
+    "title": "Full Drop + Sponsorship Combo",
+    "user_query": "Lock GTR Chase + 50k views YouTube sponsorship",
+    "status": "ESCROW_SETTLED_AND_LOCKED",
+    "subagents": [
+      "creator",
+      "collectibles"
+    ],
+    "proposals": [
+      {
+        "deal_id": "DEAL-5205682C",
+        "subagent_domain": "creator",
+        "counterparty_name": "TechSprint Daily (50K Avg Views)",
+        "agreed_price": 215.0,
+        "escrow_locked": true,
+        "verification_status": "VERIFIED_YOUTUBE_LIVE",
+        "verification_proof": "FALLBACK_YT_PROOF: id=dQw4w9WgXcQ | deliverable='60s Dedicated Mid-roll' | status='PUBLIC_AND_EMBEDDED' | timestamp=UTC_VERIFIED",
+        "rounds_log": [
+          {
+            "round_num": 1,
+            "actor": "NexusCreatorAgent",
+            "proposed_price": 280.0,
+            "status": "COUNTER",
+            "reasoning": "Standard 50k-view CPM rate starts at $320. Countering at $280 for dedicated mid-roll."
+          },
+          {
+            "round_num": 2,
+            "actor": "NexusCreatorAgent",
+            "proposed_price": 215.0,
+            "status": "ACCEPTED",
+            "reasoning": "Mutually settled at $215.00 with sponsor link and pinned video deliverable."
+          }
+        ],
+        "summary": "Sponsorship deal closed at $215.00. YouTube deliverable verified live."
+      },
+      {
+        "deal_id": "DEAL-5205682C",
+        "subagent_domain": "collectibles",
+        "counterparty_name": "NexusVault Custody (Nissan Skyline GT-R R34 (Chase Spec))",
+        "agreed_price": 78.5,
+        "escrow_locked": true,
+        "verification_status": "VAULT_ASSET_LOCKED",
+        "verification_proof": "VAULT_CUSTODY_LOCK: SKU=VAULT-SKU-GTR-CHASE-7721 | RFID=RFID-9812-SEALED | TRADE_IN_CREDIT=$25_APPLIED",
+        "rounds_log": [
+          {
+            "round_num": 1,
+            "actor": "NexusVaultAgent",
+            "proposed_price": 85.0,
+            "status": "COUNTER",
+            "reasoning": "Base listing $110.00 minus $25.00 trade-in credit for 'Hot Wheels Skyline R32'. Countering at $85.00."
+          },
+          {
+            "round_num": 2,
+            "actor": "NexusVaultAgent",
+            "proposed_price": 78.5,
+            "status": "ACCEPTED",
+            "reasoning": "Vault algorithm accepted $78.50 settlement. Reserve price satisfied & mint condition guaranteed."
+          }
+        ],
+        "summary": "Vault asset 'Nissan Skyline GT-R R34 (Chase Spec)' locked at $78.50 with $25.00 trade-in credit."
+      }
+    ],
+    "escrow_locked": true,
+    "total_agreed": 293.5
+  },
+  "DEAL-32E02233": {
+    "deal_id": "DEAL-32E02233",
+    "type": "combo",
+    "title": "Full Drop + Sponsorship Combo",
+    "user_query": "Lock GTR Chase + 50k views YouTube sponsorship",
+    "status": "ESCROW_SETTLED_AND_LOCKED",
+    "subagents": [
+      "creator",
+      "collectibles"
+    ],
+    "proposals": [
+      {
+        "deal_id": "DEAL-32E02233",
+        "subagent_domain": "creator",
+        "counterparty_name": "TechSprint Daily (50K Avg Views)",
+        "agreed_price": 215.0,
+        "escrow_locked": true,
+        "verification_status": "VERIFIED_YOUTUBE_LIVE",
+        "verification_proof": "FALLBACK_YT_PROOF: id=dQw4w9WgXcQ | deliverable='60s Dedicated Mid-roll' | status='PUBLIC_AND_EMBEDDED' | timestamp=UTC_VERIFIED",
+        "rounds_log": [
+          {
+            "round_num": 1,
+            "actor": "NexusCreatorAgent",
+            "proposed_price": 280.0,
+            "status": "COUNTER",
+            "reasoning": "Standard 50k-view CPM rate starts at $320. Countering at $280 for dedicated mid-roll."
+          },
+          {
+            "round_num": 2,
+            "actor": "NexusCreatorAgent",
+            "proposed_price": 215.0,
+            "status": "ACCEPTED",
+            "reasoning": "Mutually settled at $215.00 with sponsor link and pinned video deliverable."
+          }
+        ],
+        "summary": "Sponsorship deal closed at $215.00. YouTube deliverable verified live."
+      },
+      {
+        "deal_id": "DEAL-32E02233",
+        "subagent_domain": "collectibles",
+        "counterparty_name": "NexusVault Custody (Nissan Skyline GT-R R34 (Chase Spec))",
+        "agreed_price": 78.5,
+        "escrow_locked": true,
+        "verification_status": "VAULT_ASSET_LOCKED",
+        "verification_proof": "VAULT_CUSTODY_LOCK: SKU=VAULT-SKU-GTR-CHASE-7721 | RFID=RFID-9812-SEALED | TRADE_IN_CREDIT=$25_APPLIED",
+        "rounds_log": [
+          {
+            "round_num": 1,
+            "actor": "NexusVaultAgent",
+            "proposed_price": 85.0,
+            "status": "COUNTER",
+            "reasoning": "Base listing $110.00 minus $25.00 trade-in credit for 'Hot Wheels Skyline R32'. Countering at $85.00."
+          },
+          {
+            "round_num": 2,
+            "actor": "NexusVaultAgent",
+            "proposed_price": 78.5,
+            "status": "ACCEPTED",
+            "reasoning": "Vault algorithm accepted $78.50 settlement. Reserve price satisfied & mint condition guaranteed."
+          }
+        ],
+        "summary": "Vault asset 'Nissan Skyline GT-R R34 (Chase Spec)' locked at $78.50 with $25.00 trade-in credit."
+      }
+    ],
+    "escrow_locked": true,
+    "total_agreed": 293.5
+  },
+  "DEAL-BA338178": {
+    "deal_id": "DEAL-BA338178",
+    "type": "combo",
+    "title": "Full Drop + Sponsorship Combo",
+    "user_query": "Lock GTR Chase + 50k views YouTube sponsorship",
+    "status": "ESCROW_SETTLED_AND_LOCKED",
+    "subagents": [
+      "creator",
+      "collectibles"
+    ],
+    "proposals": [
+      {
+        "deal_id": "DEAL-BA338178",
+        "subagent_domain": "creator",
+        "counterparty_name": "TechSprint Daily (50K Avg Views)",
+        "agreed_price": 215.0,
+        "escrow_locked": true,
+        "verification_status": "VERIFIED_YOUTUBE_LIVE",
+        "verification_proof": "FALLBACK_YT_PROOF: id=dQw4w9WgXcQ | deliverable='60s Dedicated Mid-roll' | status='PUBLIC_AND_EMBEDDED' | timestamp=UTC_VERIFIED",
+        "rounds_log": [
+          {
+            "round_num": 1,
+            "actor": "NexusCreatorAgent",
+            "proposed_price": 280.0,
+            "status": "COUNTER",
+            "reasoning": "Standard 50k-view CPM rate starts at $320. Countering at $280 for dedicated mid-roll."
+          },
+          {
+            "round_num": 2,
+            "actor": "NexusCreatorAgent",
+            "proposed_price": 215.0,
+            "status": "ACCEPTED",
+            "reasoning": "Mutually settled at $215.00 with sponsor link and pinned video deliverable."
+          }
+        ],
+        "summary": "Sponsorship deal closed at $215.00. YouTube deliverable verified live."
+      },
+      {
+        "deal_id": "DEAL-BA338178",
+        "subagent_domain": "collectibles",
+        "counterparty_name": "NexusVault Custody (Nissan Skyline GT-R R34 (Chase Spec))",
+        "agreed_price": 78.5,
+        "escrow_locked": true,
+        "verification_status": "VAULT_ASSET_LOCKED",
+        "verification_proof": "VAULT_CUSTODY_LOCK: SKU=VAULT-SKU-GTR-CHASE-7721 | RFID=RFID-9812-SEALED | TRADE_IN_CREDIT=$25_APPLIED",
+        "rounds_log": [
+          {
+            "round_num": 1,
+            "actor": "NexusVaultAgent",
+            "proposed_price": 85.0,
+            "status": "COUNTER",
+            "reasoning": "Base listing $110.00 minus $25.00 trade-in credit for 'Hot Wheels Skyline R32'. Countering at $85.00."
+          },
+          {
+            "round_num": 2,
+            "actor": "NexusVaultAgent",
+            "proposed_price": 78.5,
+            "status": "ACCEPTED",
+            "reasoning": "Vault algorithm accepted $78.50 settlement. Reserve price satisfied & mint condition guaranteed."
+          }
+        ],
+        "summary": "Vault asset 'Nissan Skyline GT-R R34 (Chase Spec)' locked at $78.50 with $25.00 trade-in credit."
+      }
+    ],
+    "escrow_locked": true,
+    "total_agreed": 293.5
+  },
+  "DEAL-F533264E": {
+    "deal_id": "DEAL-F533264E",
+    "type": "combo",
+    "title": "Full Drop + Sponsorship Combo",
+    "user_query": "Lock GTR Chase + 50k views YouTube sponsorship",
+    "status": "ESCROW_SETTLED_AND_LOCKED",
+    "subagents": [
+      "creator",
+      "collectibles"
+    ],
+    "proposals": [
+      {
+        "deal_id": "DEAL-F533264E",
+        "subagent_domain": "creator",
+        "counterparty_name": "TechSprint Daily (50K Avg Views)",
+        "agreed_price": 215.0,
+        "escrow_locked": true,
+        "verification_status": "VERIFIED_YOUTUBE_LIVE",
+        "verification_proof": "FALLBACK_YT_PROOF: id=dQw4w9WgXcQ | deliverable='60s Dedicated Mid-roll' | status='PUBLIC_AND_EMBEDDED' | timestamp=UTC_VERIFIED",
+        "rounds_log": [
+          {
+            "round_num": 1,
+            "actor": "NexusCreatorAgent",
+            "proposed_price": 280.0,
+            "status": "COUNTER",
+            "reasoning": "Standard 50k-view CPM rate starts at $320. Countering at $280 for dedicated mid-roll."
+          },
+          {
+            "round_num": 2,
+            "actor": "NexusCreatorAgent",
+            "proposed_price": 215.0,
+            "status": "ACCEPTED",
+            "reasoning": "Mutually settled at $215.00 with sponsor link and pinned video deliverable."
+          }
+        ],
+        "summary": "Sponsorship deal closed at $215.00. YouTube deliverable verified live."
+      },
+      {
+        "deal_id": "DEAL-F533264E",
+        "subagent_domain": "collectibles",
+        "counterparty_name": "NexusVault Custody (Nissan Skyline GT-R R34 (Chase Spec))",
+        "agreed_price": 78.5,
+        "escrow_locked": true,
+        "verification_status": "VAULT_ASSET_LOCKED",
+        "verification_proof": "VAULT_CUSTODY_LOCK: SKU=VAULT-SKU-GTR-CHASE-7721 | RFID=RFID-9812-SEALED | TRADE_IN_CREDIT=$25_APPLIED",
+        "rounds_log": [
+          {
+            "round_num": 1,
+            "actor": "NexusVaultAgent",
+            "proposed_price": 85.0,
+            "status": "COUNTER",
+            "reasoning": "Base listing $110.00 minus $25.00 trade-in credit for 'Hot Wheels Skyline R32'. Countering at $85.00."
+          },
+          {
+            "round_num": 2,
+            "actor": "NexusVaultAgent",
+            "proposed_price": 78.5,
+            "status": "ACCEPTED",
+            "reasoning": "Vault algorithm accepted $78.50 settlement. Reserve price satisfied & mint condition guaranteed."
+          }
+        ],
+        "summary": "Vault asset 'Nissan Skyline GT-R R34 (Chase Spec)' locked at $78.50 with $25.00 trade-in credit."
+      }
+    ],
+    "escrow_locked": true,
+    "total_agreed": 293.5
+  },
+  "DEAL-402A203E": {
+    "deal_id": "DEAL-402A203E",
+    "type": "combo",
+    "title": "Full Drop + Sponsorship Combo",
+    "user_query": "Lock GTR Chase + 50k views YouTube sponsorship",
+    "status": "ESCROW_SETTLED_AND_LOCKED",
+    "subagents": [
+      "creator",
+      "collectibles"
+    ],
+    "proposals": [
+      {
+        "deal_id": "DEAL-402A203E",
+        "subagent_domain": "creator",
+        "counterparty_name": "TechSprint Daily (50K Avg Views)",
+        "agreed_price": 215.0,
+        "escrow_locked": true,
+        "verification_status": "VERIFIED_YOUTUBE_LIVE",
+        "verification_proof": "FALLBACK_YT_PROOF: id=dQw4w9WgXcQ | deliverable='60s Dedicated Mid-roll' | status='PUBLIC_AND_EMBEDDED' | timestamp=UTC_VERIFIED",
+        "rounds_log": [
+          {
+            "round_num": 1,
+            "actor": "NexusCreatorAgent",
+            "proposed_price": 280.0,
+            "status": "COUNTER",
+            "reasoning": "Standard 50k-view CPM rate starts at $320. Countering at $280 for dedicated mid-roll."
+          },
+          {
+            "round_num": 2,
+            "actor": "NexusCreatorAgent",
+            "proposed_price": 215.0,
+            "status": "ACCEPTED",
+            "reasoning": "Mutually settled at $215.00 with sponsor link and pinned video deliverable."
+          }
+        ],
+        "summary": "Sponsorship deal closed at $215.00. YouTube deliverable verified live."
+      },
+      {
+        "deal_id": "DEAL-402A203E",
+        "subagent_domain": "collectibles",
+        "counterparty_name": "NexusVault Custody (Nissan Skyline GT-R R34 (Chase Spec))",
+        "agreed_price": 78.5,
+        "escrow_locked": true,
+        "verification_status": "VAULT_ASSET_LOCKED",
+        "verification_proof": "VAULT_CUSTODY_LOCK: SKU=VAULT-SKU-GTR-CHASE-7721 | RFID=RFID-9812-SEALED | TRADE_IN_CREDIT=$25_APPLIED",
+        "rounds_log": [
+          {
+            "round_num": 1,
+            "actor": "NexusVaultAgent",
+            "proposed_price": 85.0,
+            "status": "COUNTER",
+            "reasoning": "Base listing $110.00 minus $25.00 trade-in credit for 'Hot Wheels Skyline R32'. Countering at $85.00."
+          },
+          {
+            "round_num": 2,
+            "actor": "NexusVaultAgent",
+            "proposed_price": 78.5,
+            "status": "ACCEPTED",
+            "reasoning": "Vault algorithm accepted $78.50 settlement. Reserve price satisfied & mint condition guaranteed."
+          }
+        ],
+        "summary": "Vault asset 'Nissan Skyline GT-R R34 (Chase Spec)' locked at $78.50 with $25.00 trade-in credit."
+      }
+    ],
+    "escrow_locked": true,
+    "total_agreed": 293.5
+  },
+  "DEAL-93C2E468": {
+    "deal_id": "DEAL-93C2E468",
+    "type": "combo",
+    "title": "Full Drop + Sponsorship Combo",
+    "user_query": "Lock Supra MK4 Mint in Acrylic Case + TechSprint Mid-roll",
+    "timestamp": "2026-10-24 10:54:00 UTC",
+    "status": "ESCROW_SETTLED_AND_LOCKED",
+    "subagents": [
+      "creator",
+      "collectibles"
+    ],
+    "proposals": [
+      {
+        "deal_id": "DEAL-93C2E468",
+        "subagent_domain": "creator",
+        "counterparty_name": "TechSprint Daily (50K Avg Views)",
+        "agreed_price": 215.0,
+        "escrow_locked": true,
+        "verification_status": "VERIFIED_YOUTUBE_LIVE",
+        "verification_proof": "FALLBACK_YT_PROOF: id=dQw4w9WgXcQ | deliverable='60s Dedicated Mid-roll' | status='PUBLIC_AND_EMBEDDED' | timestamp=UTC_VERIFIED",
+        "rounds_log": [
+          {
+            "round_num": 1,
+            "actor": "NexusCreatorAgent",
+            "proposed_price": 280.0,
+            "status": "COUNTER",
+            "reasoning": "Standard 50k-view CPM rate starts at $320. Countering at $280 for dedicated mid-roll deliverable."
+          },
+          {
+            "round_num": 2,
+            "actor": "NexusCreatorAgent",
+            "proposed_price": 215.0,
+            "status": "ACCEPTED",
+            "reasoning": "Settled at $215.00 with sponsor link pinned and 60s dedicated brand integration."
+          }
+        ],
+        "summary": "Sponsorship deal closed at $215.00. YouTube deliverable verified live."
+      },
+      {
+        "deal_id": "DEAL-93C2E468",
+        "subagent_domain": "collectibles",
+        "counterparty_name": "NexusVault Custody (Toyota Supra MK4 Turbo (Mint in Acrylic Case))",
+        "agreed_price": 63.5,
+        "escrow_locked": true,
+        "verification_status": "VAULT_ASSET_LOCKED",
+        "verification_proof": "VAULT_CUSTODY_LOCK: SKU=VAULT-SKU-SUPRA-MK4-9042 | RFID=RFID-9812-SEALED | TRADE_IN_CREDIT=$25.00_APPLIED",
+        "rounds_log": [
+          {
+            "round_num": 1,
+            "actor": "NexusVaultAgent",
+            "proposed_price": 70.0,
+            "status": "COUNTER",
+            "reasoning": "Base listing $95.00 minus $25.00 trade-in credit for 'Hot Wheels Skyline R32'. Countering at $70.00."
+          },
+          {
+            "round_num": 2,
+            "actor": "NexusVaultAgent",
+            "proposed_price": 63.5,
+            "status": "ACCEPTED",
+            "reasoning": "Vault algorithm accepted $63.50 settlement. Reserve price satisfied & mint condition guaranteed."
+          }
+        ],
+        "summary": "Vault asset 'Toyota Supra MK4 Turbo (Mint in Acrylic Case)' locked at $63.50 with $25.00 trade-in credit."
+      }
+    ],
+    "escrow_locked": true,
+    "total_agreed": 278.5
+  }
+}
