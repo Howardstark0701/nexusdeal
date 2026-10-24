@@ -51,16 +51,16 @@ def lookup_inventory(query: str):
 @vault_agent.on_event("startup")
 async def startup_handler(ctx: Context):
     ctx.logger.info("==================================================")
-    ctx.logger.info("🏛️ NexusVaultAgent (Assigned: Utkarsh) Online!")
-    ctx.logger.info(f"📍 Agent Address : {vault_agent.address}")
-    ctx.logger.info(f"🌐 Listening Port : 8002 | Mailbox: True")
+    ctx.logger.info(">> NexusVaultAgent (Assigned: Utkarsh) Online!")
+    ctx.logger.info(f"[*] Agent Address : {vault_agent.address}")
+    ctx.logger.info(f"[*] Listening Port : 8002 | Mailbox: True")
     ctx.logger.info("==================================================")
 
 
 @vault_agent.on_message(model=DealRequest)
 async def handle_deal_request(ctx: Context, sender: str, msg: DealRequest):
-    ctx.logger.info(f"📥 Received DealRequest [{msg.deal_id}] from {sender}")
-    ctx.logger.info(f"🏎️ Item: {msg.item_or_creator} | Initial: ${msg.initial_offer} | Trade-in: {msg.trade_in_item}")
+    ctx.logger.info(f"[IN] Received DealRequest [{msg.deal_id}] from {sender}")
+    ctx.logger.info(f"[ITEM] Item: {msg.item_or_creator} | Initial: ${msg.initial_offer} | Trade-in: {msg.trade_in_item}")
 
     item = lookup_inventory(msg.item_or_creator)
     trade_in_discount = 25.0 if msg.trade_in_item and msg.trade_in_item.strip() else 0.0
@@ -113,7 +113,7 @@ async def handle_deal_request(ctx: Context, sender: str, msg: DealRequest):
         f"TRADE_IN_CREDIT={'$25_APPLIED' if trade_in_discount > 0 else 'NONE'} | "
         f"ESCROW_CONDITION=CUSTODY_VERIFIED"
     )
-    ctx.logger.info(f"🔒 Vault Asset Locked: {verification_proof}")
+    ctx.logger.info(f"[LOCK] Vault Asset Locked: {verification_proof}")
 
     proposal = DealProposal(
         deal_id=msg.deal_id,
@@ -127,7 +127,7 @@ async def handle_deal_request(ctx: Context, sender: str, msg: DealRequest):
         summary=f"Vault asset '{item['name']}' locked at ${final_price:.2f} (Trade-in credit: ${trade_in_discount:.2f}). Escrow confirmed.",
     )
 
-    ctx.logger.info(f"📤 Sending DealProposal [{msg.deal_id}] back to Master: agreed=${final_price}")
+    ctx.logger.info(f"[OUT] Sending DealProposal [{msg.deal_id}] back to Master: agreed=${final_price}")
     await ctx.send(sender, proposal)
 
 
