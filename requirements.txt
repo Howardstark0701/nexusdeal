@@ -1,0 +1,8 @@
+uagents>=0.25.5
+uagents-core>=0.4.12
+openai
+requests
+pydantic>=2.0.0
+python-dotenv
+fastapi
+uvicorn
